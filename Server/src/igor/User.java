@@ -46,7 +46,7 @@ public class User {
 	}
 
 	public static boolean getAccess(User u) {
-		users.add(new User("user", "1319"));
+		users.add(new User("user", "user"));
 		users.add(new User("carragher", "100500"));
 		users.add(new User("aahz", "00"));
 		users.add(new User("xx", "x17"));

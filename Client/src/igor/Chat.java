@@ -27,13 +27,15 @@ public class Chat implements Runnable {
 	}
 
 	public void sayHello() {
+		System.out
+		.println("<< To test this chat uou can use login 'user' and password 'user'.");
 		System.out.println("<< Hello! You are enetering programm CHAT");
 		System.out.println("<< To see userlist enter the command: -userlist");
 		System.out
 				.println("<< To change your room enter the command: -room#X, where X is the number of room.");
 		System.out
 				.println("<< To send private message enter #username before text of your message, where username is the name of receiver.");
-	}
+		}
 
 	public boolean setUser() {
 
